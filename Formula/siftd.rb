@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/0b/b8/b1bc63b2c2309f73d97b33b6e5f9c5f157d495cf287e15238a6d152eb401/siftd-0.1.1.tar.gz"
-  sha256 "e14946c4b11d91489f5d4c59cd299ccf015be6364639193689405de8d39f1651"
+  url "https://files.pythonhosted.org/packages/23/ba/9331f72db7d7f575c6f85b3a60eae09a35f3dcddaa1e7faafc7a6ef8ec89/siftd-0.3.0.tar.gz"
+  sha256 "820ea443813c191bd17a29ee47ee43e699cf7804364b58fab2ab42d97a647761"
 
   depends_on "python3"
 
@@ -41,6 +41,11 @@ class Siftd < Formula
   resource "loguru" do
     url "https://files.pythonhosted.org/packages/3a/05/a1dae3dffd1116099471c643b8924f5aa6524411dc6c63fdae648c4f1aca/loguru-0.7.3.tar.gz"
     sha256 "19480589e77d47b8d85b2c827ad95d49bf31b0dcde16593892eb51dd18706eb6"
+  end
+
+  resource "numpy" do
+    url "https://files.pythonhosted.org/packages/24/62/ae72ff66c0f1fd959925b4c11f8c2dea61f47f6acaea75a08512cdfe3fed/numpy-2.4.1.tar.gz"
+    sha256 "a1ceafc5042451a858231588a104093474c6a5c57dcc724841f5c888d237d690"
   end
 
   resource "PyYAML" do
