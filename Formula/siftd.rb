@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/76/b2/e3a1721461748d17a491c022480bb577d6a6a31b722b040a872e500a4043/siftd-0.4.5.tar.gz"
-  sha256 "7ed9e62ce1945ee2395076732307b2e0275089db46ef9ab75b1ddddb6dd5270d"
+  url "https://files.pythonhosted.org/packages/19/d1/669d65ecb00fbf186386434c13ff9e162ad81654997e47d17322aad5d9d6/siftd-0.4.6.tar.gz"
+  sha256 "ee3fe2d0168c3ebdaf0518c985af97c55fc0e47dcea7f93a9d038a28696d865b"
   license "MIT"
 
   depends_on "python@3.12"
