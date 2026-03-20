@@ -3,15 +3,15 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/49/d1/0a38e5c231b6e4fc6001ab28d859bc2171a3ae9df1351da87a365ef8423d/siftd-0.5.2.tar.gz"
-  sha256 "f337cd6563cbff3156f9622021a68ba33a7ee3a0a015853933982da9a7b9f890"
+  url "https://files.pythonhosted.org/packages/77/9c/f68fd93659d2c61d702c728aba9480d6b54555364437ed2273375bd3cde5/siftd-0.5.4.tar.gz"
+  sha256 "44e6cd569faa6d1bb22e1e4157ee47fd9c29312687884aaf0755d6f230df4c2c"
   license "MIT"
 
   depends_on "python@3.12"
 
   resource "painted" do
-    url "https://files.pythonhosted.org/packages/07/21/2b543795fd07e3a555e5ebfe97e5e6f2648e0411067891ed857fecbc8ed3/painted-0.1.4.tar.gz"
-    sha256 "27267bfd56528e5fe373680b2aa83f5f9a672342669d0d983a00314c5956866a"
+    url "https://files.pythonhosted.org/packages/6b/57/f34dd48266fe50e8c2d2a8800a6eb0411cdad34687beedbc69c39419c98f/painted-0.1.7.tar.gz"
+    sha256 "3cad4f90f0f06f7c02a01aecde87486fb27604f642c2ef3ea08afc2a829248d4"
   end
 
   resource "tomlkit" do
