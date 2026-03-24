@@ -3,11 +3,16 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/63/b1/61dac7b4bf5920bfea2614f85a80966a63c987778394c7a15acba72e65e5/siftd-0.5.3.tar.gz"
-  sha256 "b3099eeb383a70b813cf0484062b39ad180a44021b4645d9a6a7ca907ed1ae82"
+  url "https://files.pythonhosted.org/packages/7f/56/a11cb14981f5bff03252d6524adc9eb4c95fb1f5c61dbd4667ac2614791a/siftd-0.6.0.tar.gz"
+  sha256 "de7c1843c1373b79afb927c5be693fc2f7dc2609b4d18f7cd0439fec3565e177"
   license "MIT"
 
   depends_on "python@3.12"
+
+  resource "asyncssh" do
+    url "https://files.pythonhosted.org/packages/fc/d5/957886c316466349d55c4de6a688a10a98295c0b4429deb8db1a17f3eb19/asyncssh-2.22.0.tar.gz"
+    sha256 "c3ce72b01be4f97b40e62844dd384227e5ff5a401a3793007c42f86a5c8eb537"
+  end
 
   resource "painted" do
     url "https://files.pythonhosted.org/packages/6b/57/f34dd48266fe50e8c2d2a8800a6eb0411cdad34687beedbc69c39419c98f/painted-0.1.7.tar.gz"
@@ -17,6 +22,16 @@ class Siftd < Formula
   resource "tomlkit" do
     url "https://files.pythonhosted.org/packages/c3/af/14b24e41977adb296d6bd1fb59402cf7d60ce364f90c890bd2ec65c43b5a/tomlkit-0.14.0.tar.gz"
     sha256 "cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064"
+  end
+
+  resource "cryptography" do
+    url "https://files.pythonhosted.org/packages/60/04/ee2a9e8542e4fa2773b81771ff8349ff19cdd56b7258a0cc442639052edb/cryptography-46.0.5.tar.gz"
+    sha256 "abace499247268e3757271b2f1e244b36b06f8515cf27c4d49468fc9eb16e93d"
+  end
+
+  resource "typing_extensions" do
+    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
+    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
   end
 
   resource "wcwidth" do
