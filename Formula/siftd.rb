@@ -3,11 +3,13 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/7f/56/a11cb14981f5bff03252d6524adc9eb4c95fb1f5c61dbd4667ac2614791a/siftd-0.6.0.tar.gz"
-  sha256 "de7c1843c1373b79afb927c5be693fc2f7dc2609b4d18f7cd0439fec3565e177"
+  url "https://files.pythonhosted.org/packages/48/79/aab8dfa0758e71e554222772ca923c672eca2058da004e830c6e2626601e/siftd-0.6.1.tar.gz"
+  sha256 "66e6fab29b45774c353febe3de920693bf4d1301a450af98ad48eb14c426254c"
   license "MIT"
 
+  depends_on "openssl@3"
   depends_on "python@3.12"
+  depends_on "rust" => :build
 
   resource "asyncssh" do
     url "https://files.pythonhosted.org/packages/fc/d5/957886c316466349d55c4de6a688a10a98295c0b4429deb8db1a17f3eb19/asyncssh-2.22.0.tar.gz"
