@@ -3,13 +3,12 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/48/79/aab8dfa0758e71e554222772ca923c672eca2058da004e830c6e2626601e/siftd-0.6.1.tar.gz"
-  sha256 "66e6fab29b45774c353febe3de920693bf4d1301a450af98ad48eb14c426254c"
+  url "https://files.pythonhosted.org/packages/df/af/9e7d8dc0039fd84b658f9758cf798e8259961d36e30d303537937dcaedca/siftd-0.6.2.tar.gz"
+  sha256 "f27f163e4fd3bcad79c8469d11ea36f01a75765d6f34efea81b57fb661fcb379"
   license "MIT"
 
   depends_on "openssl@3"
   depends_on "python@3.12"
-  depends_on "rust" => :build
 
   resource "asyncssh" do
     url "https://files.pythonhosted.org/packages/fc/d5/957886c316466349d55c4de6a688a10a98295c0b4429deb8db1a17f3eb19/asyncssh-2.22.0.tar.gz"
@@ -26,11 +25,6 @@ class Siftd < Formula
     sha256 "cf00efca415dbd57575befb1f6634c4f42d2d87dbba376128adb42c121b87064"
   end
 
-  resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/60/04/ee2a9e8542e4fa2773b81771ff8349ff19cdd56b7258a0cc442639052edb/cryptography-46.0.5.tar.gz"
-    sha256 "abace499247268e3757271b2f1e244b36b06f8515cf27c4d49468fc9eb16e93d"
-  end
-
   resource "typing_extensions" do
     url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
     sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
@@ -43,6 +37,7 @@ class Siftd < Formula
 
   def install
     virtualenv_create(libexec, "python3.12")
+    system libexec/"bin/pip", "install", 'cryptography'
     virtualenv_install_with_resources
   end
 
