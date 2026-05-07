@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/03/e7/775fbd5c06c0b62a0dc3ac8d7d2f30787ee8776afdd95bf63efa12a55568/siftd-0.7.0.tar.gz"
-  sha256 "b2dcacdf0f92059019acf491c1e3a2b412ef638284bba2398946cbac0f8dbd1b"
+  url "https://files.pythonhosted.org/packages/ac/42/71541638ee64594edcefeb90685329ecb2dfb88e00e9f5366bfbfe6aa16f/siftd-0.8.0.tar.gz"
+  sha256 "b72e40b546eb2b15ff2c12001a437695655ccc5758fc52f86aee7fb133a00143"
   license "MIT"
 
   depends_on "openssl@3"
@@ -31,8 +31,8 @@ class Siftd < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/35/a2/8e3becb46433538a38726c948d3399905a4c7cabd0df578ede5dc51f0ec2/wcwidth-0.6.0.tar.gz"
-    sha256 "cdc4e4262d6ef9a1a57e018384cbeb1208d8abbc64176027e2c2455c81313159"
+    url "https://files.pythonhosted.org/packages/2c/ee/afaf0f85a9a18fe47a67f1e4422ed6cf1fe642f0ae0a2f81166231303c52/wcwidth-0.7.0.tar.gz"
+    sha256 "90e3a7ea092341c44b99562e75d09e4d5160fe7a3974c6fb842a101a95e7eed0"
   end
 
   def install
