@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/6a/32/4cc873d2b7bb2dafe1ac7834df168316096b51b0cc4a3d6d565e9b1c2505/siftd-0.9.1.tar.gz"
-  sha256 "cbe359b8a6ebbe77266ac895c8066df0dc8572153694f5f82a14f6972f30ef13"
+  url "https://files.pythonhosted.org/packages/93/4c/aadc55817b5dafa29b71fabd52c3bf974b5935e8500aaf29b921134b1a0f/siftd-0.10.0.tar.gz"
+  sha256 "e8b3bf77c2bcad7e3a14671ac09e309281f4293cb9b7d37e01d774bbaa217ca9"
   license "MIT"
 
   depends_on "openssl@3"
@@ -20,9 +20,14 @@ class Siftd < Formula
     sha256 "75e98c5f16b0f35b567856f597f06ff2270a374470a5c2392242528e3e3e42fc"
   end
 
+  resource "mistune" do
+    url "https://files.pythonhosted.org/packages/04/5f/007786743f962224423753b78f7d7acb0f2ade46d1604f2e0fa2bedf9020/mistune-3.3.2.tar.gz"
+    sha256 "e12ee4f1e74336e91aa1141e35f913b337c40bdf7c0cc49f21fb853a27e8b62f"
+  end
+
   resource "painted" do
-    url "https://files.pythonhosted.org/packages/98/a7/fd31e92905be8f1c5edc1b6b456d758b2704b0796771b3a2cd0cf136557f/painted-0.1.8.tar.gz"
-    sha256 "57275168515c339d565771f9883f7aa8dc9823bdaa4ee4b0ed0c45ab76d9957f"
+    url "https://files.pythonhosted.org/packages/c3/73/c35cb7f68e865cbbf92f6266444e5a37b3378d67067495f4b161464943ab/painted-0.4.0.tar.gz"
+    sha256 "a1c52e9698f74b11ba9dec020e6a6fca4ca2511873f429d7507a7b6f450db583"
   end
 
   resource "tomlkit" do
@@ -36,13 +41,13 @@ class Siftd < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/19/14/2c5dd9f512b66549ae92767a9c7b330ae88e1932ca57876909410251fe13/anyio-4.13.0.tar.gz"
-    sha256 "334b70e641fd2221c1505b3890c69882fe4a2df910cba14d97019b90b24439dc"
+    url "https://files.pythonhosted.org/packages/3b/72/5562aabb8dd7181e8e860622a38bea08d17842b99ecd4c91f84ac95251b0/anyio-4.14.1.tar.gz"
+    sha256 "8d648a3544c1a700e3ff78615cd679e4c5c3f149904287e73687b2596963629e"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/f3/ce/ee2ecad540810a79593028e88299baeae54d346cc7a0d94b6199988b89b1/certifi-2026.5.20.tar.gz"
-    sha256 "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d"
+    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
+    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
   end
 
   resource "httpcore" do
