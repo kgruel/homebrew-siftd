@@ -3,16 +3,16 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/dd/94/0572c4df9116e664ad53cd05923a3658a019a786b89b4b37f034d25d4cb9/siftd-0.10.2.tar.gz"
-  sha256 "b1435a6a4374bdc694b23e20803a6d5693cfe431c110672ee332533d8b8e2ec1"
+  url "https://files.pythonhosted.org/packages/4f/62/5b685793aae546fb781333207c253cad794ef6c5d75a42cd712bb9fd8059/siftd-0.11.0.tar.gz"
+  sha256 "bd4711650f7518fdaad1c85a058b2aad591134c4c9548d006535abef84a34cc4"
   license "MIT"
 
   depends_on "openssl@3"
   depends_on "python@3.12"
 
   resource "asyncssh" do
-    url "https://files.pythonhosted.org/packages/a4/95/212d3d394f2a6ccb3f95056d3b9a7ce13c2f58503cbd6a38d037ef48cb13/asyncssh-2.23.1.tar.gz"
-    sha256 "d9dc3bc0206f3e4b5d80d1c0e6a24af2b4ad4beb556884c41fb2ad1c7ca3f44f"
+    url "https://files.pythonhosted.org/packages/dd/7f/2d79247bacc562104f312d27efe541673aa177feac89de291bd61bca52be/asyncssh-2.24.0.tar.gz"
+    sha256 "4064c590e59ce2e8d82a2f66d35f3120d765828b4df5e3dbfb07b4a8c24686c9"
   end
 
   resource "httpx" do
@@ -25,9 +25,14 @@ class Siftd < Formula
     sha256 "e12ee4f1e74336e91aa1141e35f913b337c40bdf7c0cc49f21fb853a27e8b62f"
   end
 
+  resource "numpy" do
+    url "https://files.pythonhosted.org/packages/22/fd/89965aa4ac08c74998539fcbf24fa3540f3e15237fbeb6bcf9c908f4aade/numpy-2.5.1.tar.gz"
+    sha256 "a48a113e6afea91f5608793bafa7ef2ad481fefbda87ec5069f483de61cb9fa3"
+  end
+
   resource "painted" do
-    url "https://files.pythonhosted.org/packages/c3/73/c35cb7f68e865cbbf92f6266444e5a37b3378d67067495f4b161464943ab/painted-0.4.0.tar.gz"
-    sha256 "a1c52e9698f74b11ba9dec020e6a6fca4ca2511873f429d7507a7b6f450db583"
+    url "https://files.pythonhosted.org/packages/38/d9/a11cfb7fd9368863a3902f46faa0274a649459e63c981572517269c5ad0b/painted-0.8.0.tar.gz"
+    sha256 "92e7444a76f66e4a51876c380c4d12f1bf67af72b3b521a94cbebe8a693e530b"
   end
 
   resource "tomlkit" do
@@ -36,8 +41,8 @@ class Siftd < Formula
   end
 
   resource "typing_extensions" do
-    url "https://files.pythonhosted.org/packages/72/94/1a15dd82efb362ac84269196e94cf00f187f7ed21c242792a923cdb1c61f/typing_extensions-4.15.0.tar.gz"
-    sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
+    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   resource "anyio" do
@@ -61,8 +66,8 @@ class Siftd < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/49/b4/51fe890511f0f242d07cb1ebe6a5b6db417262b9d2568b460347c57d95cc/wcwidth-0.8.1.tar.gz"
-    sha256 "faf5b4a5366a72dc49cad48cdf21f52bdf63bdda995178e483ba247ff79089b9"
+    url "https://files.pythonhosted.org/packages/34/74/c6428f875774288bec1396f5bfcbc2d925700a4dad61727fd5f2b12f249d/wcwidth-0.8.2.tar.gz"
+    sha256 "91fbef97204b96a3d4d421609b80340b760cf33e26da123ff243d76b1fda8dda"
   end
 
   resource "h11" do
