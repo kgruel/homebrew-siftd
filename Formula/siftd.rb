@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/37/da/9567c86a9159d3a3a2bce00fa59066251984c734166ce03bc6f5dc5b0148/siftd-0.12.0.tar.gz"
-  sha256 "fdca69725c3b09991922d68a5d4d5a0d4667878ef046405cca9d462c06d477b9"
+  url "https://files.pythonhosted.org/packages/2f/9a/a4d46fb75cbb4981f883d3aab8bfff8d61c571ed9d62b386692e693dc433/siftd-0.12.1.tar.gz"
+  sha256 "b67ab1d9b6cdb96deca7a4aaa6ec41106e9303b296d0dfaa1526f7c272e27a9b"
   license "MIT"
 
   depends_on "openssl@3"
@@ -21,18 +21,18 @@ class Siftd < Formula
   end
 
   resource "mistune" do
-    url "https://files.pythonhosted.org/packages/7b/a5/2dab368d6950e6808904dec98f54c7e726ee7be4a0c6afe00e6e011bd52d/mistune-3.3.3.tar.gz"
-    sha256 "c4c6c0c840b8637a2e9b8b6d607eb7c8f00888bf14c754409bcd339e848c2477"
+    url "https://files.pythonhosted.org/packages/7b/92/328a294a6de83bacb95bed01f04e0eaff4e3616ee359fc821a5dfc539b02/mistune-3.3.4.tar.gz"
+    sha256 "58b5c96d6fcb61190dfe5fae498d2b2065f99cf61e9649418fd54cf1ada86dfe"
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/22/fd/89965aa4ac08c74998539fcbf24fa3540f3e15237fbeb6bcf9c908f4aade/numpy-2.5.1.tar.gz"
-    sha256 "a48a113e6afea91f5608793bafa7ef2ad481fefbda87ec5069f483de61cb9fa3"
+    url "https://files.pythonhosted.org/packages/9a/80/db0b4559e57ec36362bedbb05530a87fafbcb6067708c946967a41d449e7/numpy-2.5.2.tar.gz"
+    sha256 "d482d171c406ae88c5b19cad3b6a1c4c5209f886ab74bc44c2c865c23f52d860"
   end
 
   resource "painted" do
-    url "https://files.pythonhosted.org/packages/f8/fa/ea459047aa400bf86c787878618d582af51c547778f7fdbebf17ea9edfbb/painted-0.12.1.tar.gz"
-    sha256 "03561ad323ea5f65f7ef3a7081e411e66c75301d9e3fb8010b7f97ad0b63f3bd"
+    url "https://files.pythonhosted.org/packages/22/86/05a66c0b56c58cd224b7e398bc9e3fee86315134cc48f18c4b3263d12659/painted-0.13.0.tar.gz"
+    sha256 "319a07cf097fd5b61f9da9b20e24a3b1e1e095c0c560fd24c924989c9536a478"
   end
 
   resource "tomlkit" do
@@ -51,8 +51,8 @@ class Siftd < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/c9/c7/424b75da314c1045981bd9777432fad05a9e0c69daa4ed7e308bbaffe405/certifi-2026.6.17.tar.gz"
-    sha256 "024c88eeec92ca068db80f02b8b07c9cef7b9fe261d1d535abfd5abd6f6af432"
+    url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
+    sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
   end
 
   resource "httpcore" do
