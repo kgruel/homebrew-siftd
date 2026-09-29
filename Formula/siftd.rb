@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/2f/9a/a4d46fb75cbb4981f883d3aab8bfff8d61c571ed9d62b386692e693dc433/siftd-0.12.1.tar.gz"
-  sha256 "b67ab1d9b6cdb96deca7a4aaa6ec41106e9303b296d0dfaa1526f7c272e27a9b"
+  url "https://files.pythonhosted.org/packages/f7/89/45a807a40e34c1a6314cf63490b8c709ca0c5ff91d1968ef001c0c034f5f/siftd-0.12.2.tar.gz"
+  sha256 "bcfa41a684804dc82696a6fb9850a5e1df122ada310065815d44ce314ec7ed8c"
   license "MIT"
 
   depends_on "openssl@3"
@@ -26,13 +26,13 @@ class Siftd < Formula
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/9a/80/db0b4559e57ec36362bedbb05530a87fafbcb6067708c946967a41d449e7/numpy-2.5.2.tar.gz"
-    sha256 "d482d171c406ae88c5b19cad3b6a1c4c5209f886ab74bc44c2c865c23f52d860"
+    url "https://files.pythonhosted.org/packages/13/01/11703282db468b85f6f7b8c7f22d058de5970d5c7e60a3a8aaa313c3de36/numpy-2.5.3.tar.gz"
+    sha256 "df2d5874ff183595a4ba404edd04f6bd9b5505c1d7708573f6a6c17489a67563"
   end
 
   resource "painted" do
-    url "https://files.pythonhosted.org/packages/22/86/05a66c0b56c58cd224b7e398bc9e3fee86315134cc48f18c4b3263d12659/painted-0.13.0.tar.gz"
-    sha256 "319a07cf097fd5b61f9da9b20e24a3b1e1e095c0c560fd24c924989c9536a478"
+    url "https://files.pythonhosted.org/packages/ae/61/2c6f3576f52a74dcbc8f4f832dd5c339777ae192685fd015b8269134d130/painted-0.14.0.tar.gz"
+    sha256 "a9deda8f6d98177eec9c51006b41db41f1701335cdb4adca406b56837dba43c7"
   end
 
   resource "tomlkit" do
@@ -46,8 +46,8 @@ class Siftd < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/61/cc/a381afa6efea9f496eff839d4a6a1aed3bfafc7b3ab4b0d1b243a12573dd/anyio-4.14.2.tar.gz"
-    sha256 "cfa139f3ed1a23ee8f88a145ddb5ac7605b8bbfd8592baacd7ce3d8bb4313c7f"
+    url "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz"
+    sha256 "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94"
   end
 
   resource "certifi" do
@@ -61,13 +61,13 @@ class Siftd < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/cd/63/9496c57188a2ee585e0f1db071d75089a11e98aa86eb99d9d7618fc1edce/idna-3.18.tar.gz"
-    sha256 "ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"
+    url "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz"
+    sha256 "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44"
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/34/74/c6428f875774288bec1396f5bfcbc2d925700a4dad61727fd5f2b12f249d/wcwidth-0.8.2.tar.gz"
-    sha256 "91fbef97204b96a3d4d421609b80340b760cf33e26da123ff243d76b1fda8dda"
+    url "https://files.pythonhosted.org/packages/dc/ac/3a943d2792c9bb368aaa8b50121c0f778460ba2d7fbdc0a0366201d9e761/wcwidth-0.9.1.tar.gz"
+    sha256 "5823209b0d43af322ce698c689380d7c15ca31fa8e6e3be8459f27031bef0af5"
   end
 
   resource "h11" do
