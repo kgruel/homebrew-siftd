@@ -3,16 +3,16 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/f7/89/45a807a40e34c1a6314cf63490b8c709ca0c5ff91d1968ef001c0c034f5f/siftd-0.12.2.tar.gz"
-  sha256 "bcfa41a684804dc82696a6fb9850a5e1df122ada310065815d44ce314ec7ed8c"
+  url "https://files.pythonhosted.org/packages/5e/bc/4cb10bc60f47783735565ee89c2973af4e29daf88f21ad42af0040a1e462/siftd-0.12.4.tar.gz"
+  sha256 "f4f7edc2918a72d8b5ed1cac25fa6090dea78bf7107bd76fb02cb15be9f2305f"
   license "MIT"
 
   depends_on "openssl@3"
   depends_on "python@3.12"
 
   resource "asyncssh" do
-    url "https://files.pythonhosted.org/packages/dd/7f/2d79247bacc562104f312d27efe541673aa177feac89de291bd61bca52be/asyncssh-2.24.0.tar.gz"
-    sha256 "4064c590e59ce2e8d82a2f66d35f3120d765828b4df5e3dbfb07b4a8c24686c9"
+    url "https://files.pythonhosted.org/packages/0f/c5/41a0d5477865c48cee65050586092dc3ba3fc1c52e29b47fba08d3a44581/asyncssh-2.24.1.tar.gz"
+    sha256 "efcd36e9b35f79873535b06444a7c9b0a3c61d97081b208c7fdd3fd8a40f1eca"
   end
 
   resource "httpx" do
@@ -26,13 +26,13 @@ class Siftd < Formula
   end
 
   resource "numpy" do
-    url "https://files.pythonhosted.org/packages/13/01/11703282db468b85f6f7b8c7f22d058de5970d5c7e60a3a8aaa313c3de36/numpy-2.5.3.tar.gz"
-    sha256 "df2d5874ff183595a4ba404edd04f6bd9b5505c1d7708573f6a6c17489a67563"
+    url "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz"
+    sha256 "9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a"
   end
 
   resource "painted" do
-    url "https://files.pythonhosted.org/packages/ae/61/2c6f3576f52a74dcbc8f4f832dd5c339777ae192685fd015b8269134d130/painted-0.14.0.tar.gz"
-    sha256 "a9deda8f6d98177eec9c51006b41db41f1701335cdb4adca406b56837dba43c7"
+    url "https://files.pythonhosted.org/packages/e8/e1/8770893cc64572fdc4fe2ec9ca59b3ebc3d083b7808600ac34e77df51fd4/painted-0.15.0.tar.gz"
+    sha256 "04978fcdc9942b74bc99237ff832d8c81fb130be6ad833b82e5059618e2ab595"
   end
 
   resource "tomlkit" do
@@ -66,8 +66,8 @@ class Siftd < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/dc/ac/3a943d2792c9bb368aaa8b50121c0f778460ba2d7fbdc0a0366201d9e761/wcwidth-0.9.1.tar.gz"
-    sha256 "5823209b0d43af322ce698c689380d7c15ca31fa8e6e3be8459f27031bef0af5"
+    url "https://files.pythonhosted.org/packages/f0/b4/7830542634bb2d3e62aa3b586a72d5b3b6c91c3168929e7000ef3fed041d/wcwidth-0.9.2.tar.gz"
+    sha256 "ae0ef90b90f6af38b54f1fe6d58662ec33b3cb4b8391958a62416d654231727b"
   end
 
   resource "h11" do
