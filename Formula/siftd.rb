@@ -3,8 +3,8 @@ class Siftd < Formula
 
   desc "Personal LLM usage analytics for CLI coding tools"
   homepage "https://github.com/kgruel/siftd"
-  url "https://files.pythonhosted.org/packages/67/2c/04aee98e75e851cb59cb03bae08242714425213f5b14faaf0d2257b68159/siftd-0.13.0.tar.gz"
-  sha256 "8f9c26cc28346daac3cae87bf1d721d50df71ac781126680f7de3335b76c335c"
+  url "https://files.pythonhosted.org/packages/5c/38/1b456afa86acda3d7b6db39451ca3e3ab2a462398f7781ad421307194d73/siftd-0.13.1.tar.gz"
+  sha256 "7cf62cc34480aa6442321f8337e0ea5c176e70cbc8089a0d18622d894469756f"
   license "MIT"
 
   depends_on "openssl@3"
@@ -46,8 +46,8 @@ class Siftd < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz"
-    sha256 "9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94"
+    url "https://files.pythonhosted.org/packages/a1/98/7e457a3b014976887a050561955c0b76e1e7e2d6e27b78ecef2ef80518f2/anyio-4.16.0.tar.gz"
+    sha256 "59bb03251907983d1603d27c3087ddb1e93299ea2163adcdba37899a4fb12ffb"
   end
 
   resource "certifi" do
@@ -66,8 +66,8 @@ class Siftd < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/69/4a/82d61476a1ccc20d43d0805724c5de4baa4971131a8db1816705ef53fe16/wcwidth-0.9.3.tar.gz"
-    sha256 "dfe7cfbd4cb59db9fe0931bd6091ab4a95b3acc5d56bfb50fa9fef0ccba5dc5c"
+    url "https://files.pythonhosted.org/packages/ea/01/e5ac23733628a6bbb91913a765fcf55ee8070d8d991bc88fdaaf805052c7/wcwidth-0.9.4.tar.gz"
+    sha256 "fd8d57d3cdfe570e3265c8fab1885c24e34ef40889c0759c0c304a19e9835954"
   end
 
   resource "h11" do
